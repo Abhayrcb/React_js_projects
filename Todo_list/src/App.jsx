@@ -33,7 +33,7 @@ const [Data,setData]= useState(()=>{
   }}
 >
   <input type="text" name="data" id="txt" placeholder="Enter your task here.." />
-  <button className="btn">Add</button>
+  <button className="btn-form">Add</button>
 </form>
         <ul>
             {Data.map((item,index)=>{
