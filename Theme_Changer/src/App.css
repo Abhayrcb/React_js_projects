@@ -1,0 +1,31 @@
+[data-theme="light"]{
+   --bg-color:white;
+   --text-color:black;
+}
+
+
+[data-theme='dark']{
+    --bg-color:black;
+   --text-color:white;
+}
+
+body,html{
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap:10px;
+    
+}
+
+a{
+    color:var(--text-color);
+}
